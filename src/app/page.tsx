@@ -2,7 +2,15 @@ import Image from "next/image";
 import ChaiyoKungWhiteLogo from "./chaiyokung-white-logo.svg";
 
 function Logo() {
-  return <Image src={ChaiyoKungWhiteLogo} alt="ChaiyoKung White Logo" className="w-32 h-32 md:w-48 md:h-48" />;
+  return (
+    <Image
+      src={ChaiyoKungWhiteLogo}
+      alt="ChaiyoKung White Logo"
+      width={1024}
+      height={1024}
+      className="w-32 h-32 md:w-48 md:h-48"
+    />
+  );
 }
 
 function Divider() {
