@@ -14,7 +14,7 @@ function Logo() {
 }
 
 function Divider() {
-  return <div className="bg-white w-full h-[1px] lg:w-[1px] lg:h-44"></div>;
+  return <div className="bg-white w-full h-[1px] lg:w-[1px] lg:h-44 opacity-50"></div>;
 }
 
 function Hero() {
