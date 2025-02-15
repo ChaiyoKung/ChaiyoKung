@@ -3,6 +3,7 @@ import ChaiyoKungWhiteLogo from "./chaiyokung-white-logo.svg";
 import { Agbalumo, B612_Mono, Cormorant } from "next/font/google";
 import { NextFont } from "next/dist/compiled/@next/font";
 import { ComponentProps } from "react";
+import clsx from "clsx/lite";
 
 const b612Mono = B612_Mono({
   weight: ["400"],
@@ -34,7 +35,7 @@ function InterestListItem({
 }) {
   return (
     <li className="flex items-center gap-1">
-      <span className={`${font.className} text-white ${className}`}>{label}</span>
+      <span className={clsx(font.className, "text-white", className)}>{label}</span>
       <span className="bg-white h-[1px] w-3 opacity-50 mr-[1px]"></span>
     </li>
   );
