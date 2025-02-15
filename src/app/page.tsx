@@ -5,7 +5,7 @@ import { NextFont } from "next/dist/compiled/@next/font";
 import { ComponentProps } from "react";
 
 const b612Mono = B612_Mono({
-  weight: ["400", "700"],
+  weight: ["400"],
   subsets: ["latin"],
 });
 
@@ -15,7 +15,7 @@ const agbalumo = Agbalumo({
 });
 
 const cormorant = Cormorant({
-  weight: ["300", "400", "500", "600", "700"],
+  weight: ["400"],
   subsets: ["latin"],
 });
 
