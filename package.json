@@ -10,6 +10,7 @@
     "format": "prettier \"src/**/*.{css,js,jsx,ts,tsx}\" --write"
   },
   "dependencies": {
+    "@uidotdev/usehooks": "^2.4.1",
     "clsx": "^2.1.1",
     "next": "15.1.6",
     "react": "^19.0.0",
