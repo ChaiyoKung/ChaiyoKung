@@ -97,7 +97,7 @@ export default function Home() {
       <BgCircleTheme2 />
       <BgCircleTheme3 />
       <BgCircleTheme4 />
-      <div className="backdrop-blur-[160px] absolute w-screen h-screen"></div>
+      <div className="backdrop-blur-[240px] absolute w-screen h-screen"></div>
 
       <div className="z-[1] container absolute flex flex-col justify-end items-end h-[40vh] top-0 w-[80%] max-w-screen-xl">
         <VerticalLine />
