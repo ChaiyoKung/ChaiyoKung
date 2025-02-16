@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={prompt.className}>
-      <body className="bg-gradient-to-br from-[#0A2EFC] to-[#0AFCC4]">{children}</body>
+      <body>{children}</body>
     </html>
   );
 }

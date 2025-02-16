@@ -4,6 +4,9 @@ import { Agbalumo, B612_Mono, Cormorant } from "next/font/google";
 import { NextFont } from "next/dist/compiled/@next/font";
 import { ComponentProps } from "react";
 import clsx from "clsx/lite";
+import BgCircleTheme4 from "./components/bg-circle-theme-4";
+import BgCircleTheme2 from "./components/bg-circle-theme-2";
+import BgCircleTheme3 from "./components/bg-circle-theme-3";
 
 const b612Mono = B612_Mono({
   weight: ["400"],
@@ -90,12 +93,17 @@ function Hero() {
 
 export default function Home() {
   return (
-    <main className="flex justify-center items-center min-h-screen p-4 relative">
-      <div className="container absolute flex flex-col justify-end items-end h-[40vh] top-0 w-[80%] max-w-screen-xl">
+    <main className="flex justify-center items-center h-screen p-4 relative bg-theme-1 overflow-hidden">
+      <BgCircleTheme2 />
+      <BgCircleTheme3 />
+      <BgCircleTheme4 />
+      <div className="backdrop-blur-[160px] absolute w-screen h-screen"></div>
+
+      <div className="z-[1] container absolute flex flex-col justify-end items-end h-[40vh] top-0 w-[80%] max-w-screen-xl">
         <VerticalLine />
         <InterestList />
       </div>
-      <div className="flex flex-col lg:flex-row justify-center items-center gap-8">
+      <div className="z-[1] flex flex-col lg:flex-row justify-center items-center gap-8">
         <Logo />
         <Divider />
         <Hero />
