@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://chaiyokung.com/sitemap.xml",
+    sitemap: "https://www.chaiyokung.com/sitemap.xml",
   };
 }
