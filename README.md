@@ -1,3 +1,3 @@
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=ChaiyoKung&show_icons=true&theme=tokyonight)
+![GitHub stats](https://github-stats.chaiyokung.com/api?username=ChaiyoKung&show_icons=true&theme=tokyonight)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ChaiyoKung&layout=donut&theme=tokyonight)
+![Top Langs](https://github-stats.chaiyokung.com/api/top-langs/?username=ChaiyoKung&layout=donut&theme=tokyonight)
