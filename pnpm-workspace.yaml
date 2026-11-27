@@ -1,3 +1,5 @@
+minimumReleaseAgeExclude:
+  - postcss@8.5.34
 overrides:
   "flatted@<3.4.2": "^3.4.4"
   "minimatch@>=9.0.0 <11.0.1": "^11.0.9"
@@ -5,3 +7,4 @@ overrides:
   "brace-expansion@>=2.0.0 <2.1.7": "^2.1.7"
   "picomatch@<2.3.2": "^2.3.2"
   "picomatch@>=4.0.0 <4.0.4": "^4.0.7"
+  "postcss@<8.5.23": "^8.5.34"
